@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#08111f" />
+  <meta name="description" content="FrostVale SMP — Survival, Economy, Ranks, Events, Java & Bedrock." />
+  <title>FrostVale SMP</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="snow" aria-hidden="true"></div>
+
+  <header class="nav-wrap">
+    <nav class="nav">
+      <a class="brand" href="#home"><span>❄</span> FROSTVALE</a>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#ranks">Ranks</a>
+        <a href="#commands">Commands</a>
+        <a href="#rules">Rules</a>
+      </div>
+      <a class="btn btn-small btn-ghost" href="https://discord.gg/zsXkpkxPqH" target="_blank" rel="noopener">Discord</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="aurora a1"></div>
+      <div class="aurora a2"></div>
+      <div class="hero-inner">
+        <div class="eyebrow">JAVA + BEDROCK • SURVIVAL SMP</div>
+        <h1>Welcome to <span>FrostVale</span></h1>
+        <p class="hero-copy">Survive, build, trade, rank up, and take part in events on a community-focused Minecraft SMP.</p>
+
+        <div class="hero-actions">
+          <button class="btn btn-primary" data-copy="frostvale.seedloaf.gg">Copy Java IP</button>
+          <a class="btn btn-secondary" href="#join">How to Join</a>
+        </div>
+
+        <div class="status-card">
+          <div>
+            <span class="status-dot" id="statusDot"></span>
+            <strong id="statusText">Checking server...</strong>
+          </div>
+          <span id="playerCount">— players online</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="section-head">
+        <span class="eyebrow">WHY FROSTVALE?</span>
+        <h2>A classic SMP with more to do.</h2>
+      </div>
+      <div class="grid features">
+        <article class="card">
+          <div class="icon">💰</div>
+          <h3>Economy</h3>
+          <p>Earn money, trade with players, and use the server shop to grow your balance.</p>
+        </article>
+        <article class="card">
+          <div class="icon">🏠</div>
+          <h3>Claims & Homes</h3>
+          <p>Protect your builds, set homes, and explore without worrying about losing your base.</p>
+        </article>
+        <article class="card">
+          <div class="icon">🎁</div>
+          <h3>Crates & Rewards</h3>
+          <p>Open crates, earn useful rewards, and collect rare prizes as you play.</p>
+        </article>
+        <article class="card">
+          <div class="icon">⚔️</div>
+          <h3>Events</h3>
+          <p>Community events, challenges, giveaways, and seasonal activities keep things fresh.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section alt" id="join">
+      <div class="section-head">
+        <span class="eyebrow">JOIN THE SERVER</span>
+        <h2>Play from Java or Bedrock.</h2>
+      </div>
+      <div class="grid join-grid">
+        <article class="join-card">
+          <span class="platform">JAVA EDITION</span>
+          <h3>frostvale.seedloaf.gg</h3>
+          <p>Use the normal Multiplayer menu and add the server address.</p>
+          <button class="btn btn-primary full" data-copy="frostvale.seedloaf.gg">Copy Address</button>
+        </article>
+        <article class="join-card">
+          <span class="platform">BEDROCK EDITION</span>
+          <h3>frostvale.seedloaf.gg</h3>
+          <p>Use the server address above. If your Bedrock setup uses a separate port later, update it in <code>script.js</code>.</p>
+          <button class="btn btn-secondary full" data-copy="frostvale.seedloaf.gg">Copy Address</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="ranks">
+      <div class="section-head">
+        <span class="eyebrow">RANKS</span>
+        <h2>Progress through FrostVale.</h2>
+      </div>
+      <div class="rank-row">
+        <div class="rank-card"><span class="rank member">MEMBER</span><p>Base survival rank.</p></div>
+        <div class="rank-card"><span class="rank vip">VIP</span><p>Extra convenience perks.</p></div>
+        <div class="rank-card"><span class="rank mvp">MVP</span><p>More homes and premium perks.</p></div>
+        <div class="rank-card"><span class="rank helper">HELPER</span><p>Community support staff.</p></div>
+        <div class="rank-card"><span class="rank mod">MODERATOR</span><p>Server moderation team.</p></div>
+      </div>
+    </section>
+
+    <section class="section alt" id="commands">
+      <div class="section-head">
+        <span class="eyebrow">USEFUL COMMANDS</span>
+        <h2>Everything you need to get started.</h2>
+      </div>
+      <div class="command-list">
+        <div><code>/spawn</code><span>Return to spawn</span></div>
+        <div><code>/home</code><span>Teleport to a saved home</span></div>
+        <div><code>/sethome</code><span>Create a home</span></div>
+        <div><code>/tpa</code><span>Request a teleport</span></div>
+        <div><code>/balance</code><span>View your money</span></div>
+        <div><code>/appeal</code><span>Get the punishment appeal link</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="rules">
+      <div class="section-head">
+        <span class="eyebrow">SERVER RULES</span>
+        <h2>Keep FrostVale fun for everyone.</h2>
+      </div>
+      <div class="rules">
+        <div><strong>01</strong><p>No cheating, exploiting, x-ray, or unfair client modifications.</p></div>
+        <div><strong>02</strong><p>No griefing or stealing from protected player builds.</p></div>
+        <div><strong>03</strong><p>No harassment, hate speech, spam, or excessive toxicity.</p></div>
+        <div><strong>04</strong><p>Do not bypass punishments, mutes, bans, or staff restrictions.</p></div>
+        <div><strong>05</strong><p>Follow staff instructions and use <code>/appeal</code> if you think a punishment was incorrect.</p></div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div>
+        <span class="eyebrow">READY?</span>
+        <h2>Your FrostVale adventure starts here.</h2>
+      </div>
+      <div class="cta-actions">
+        <button class="btn btn-primary" data-copy="frostvale.seedloaf.gg">Copy Server IP</button>
+        <a class="btn btn-secondary" href="https://discord.gg/zsXkpkxPqH" target="_blank" rel="noopener">Join Discord</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>❄ FrostVale SMP</span>
+    <span>Not affiliated with Mojang or Microsoft.</span>
+  </footer>
+
+  <div class="toast" id="toast">Copied!</div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 const CONFIG = {
   javaAddress: "frostvale.seedloaf.gg",
-  discordInvite: "https://discord.gg/zsXkpkxPqH",
+  discordInvite: "https://discord.gg/TCwSGyS28",
 
   // This uses a free public status API. If you later use your own API,
   // replace the URL in updateStatus().
